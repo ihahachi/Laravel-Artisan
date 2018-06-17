@@ -79,5 +79,10 @@ namespace CMDLine
         {
             artisan("make:model " + NameObj.Text);
         }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            artisan("make:class " + NameObj.Text);
+        }
     }
 }
