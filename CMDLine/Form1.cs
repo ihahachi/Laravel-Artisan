@@ -32,7 +32,7 @@ namespace CMDLine
 
         private void button3_Click(object sender, EventArgs e)
         {
-                System.Diagnostics.Process.Start("cmd", "/c laravel new " + CurrentText.Text);        
+                System.Diagnostics.Process.Start("cmd", "/c composer create-project --prefer-dist laravel/laravel " + NewText.Text);        
         }
         private void utton4_Click(object sender, EventArgs e)
         {
